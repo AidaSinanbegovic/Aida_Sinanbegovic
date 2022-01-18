@@ -1,0 +1,17 @@
+body {
+background-color: bisque;
+margin: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+p{
+color: rgb(196, 72, 72);
+font-size: medium;
+margin-bottom: 20px;
+border: black;
+}
+img {
+
+}
+h1{
+color: rgb(129, 24, 5);
+}
