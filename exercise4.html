@@ -8,49 +8,75 @@
     <title>Let's Learn Flex Box</title>
 
     <style>
-            .flexContainer{
-                flex-direction: column;
-       
-}
-        body {
-        margin: 0;
+ 
+      .flexContainer {
+          display: flex;
+          flex-wrap: wrap;
+
+          }
+      .nav{
+
+          width: 20%;
+          margin: 10px;
+          padding: 10px;
+          height: 100%;
+          
+      }
+      .nav >h3, h3{
+          padding: 5px;
+      }
+  
+      
+      body {
+          max-width: 1920px;
+          
+          height: 100%;
+          margin-left: auto;
+          margin-right: auto;
       }
 
-      header, footer {
-        background: purple;
-        height: 100px;
+      header, footer{
+      background-color: purple;
+      height: 10%;
+      width: 100%;
       }
 
       h1 {
-        text-align: center;
-        color: white;
-        line-height: 100px;
-        margin: 0;
+      text-align: center;
+      color: white;
+      padding: 25px;                  
       }
 
-      article {
-        padding: 10px;
-        margin: 10px;
-        background: aqua;
-      
+      section{
+          width: 77%;
 
       }
 
-      </style>
+      article{    
+      padding: 10px;
+      margin: 10px;
+      background-color : aqua;
+      width: 99%;
+
+      }
+
+  </style>
+
 </head>
 <body>
     <header>
         <h1>Flex Box Examples </h1>
       </header>
-  <navbar class="flexContainer">
-      
-        <p>side bar</p>
-        <p>side bar</p>
-        <p>side bar</p>
-        <p>side bar</p>
-        <p>side bar</p>
+      <div class ="flexContainer">
+        <div class="nav">
+        <h3>side bar</h3>
+        <h3>side bar</h3>
+        <h3>side bar</h3>
+        <h3>side bar</h3>
+        <h3>side bar</h3>
+        </div>
 
-</navbar>
+
       <section>
 
           
